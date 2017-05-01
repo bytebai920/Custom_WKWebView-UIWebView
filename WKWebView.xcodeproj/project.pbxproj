@@ -7,15 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		65526E071EB646130014900D /* BYBUIWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 65526E061EB646120014900D /* BYBUIWebView.m */; };
+		65526E0A1EB722B10014900D /* WKWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65526E091EB722B10014900D /* WKWebViewController.m */; };
 		6576212D1EA3464B00F53296 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6576212C1EA3464B00F53296 /* main.m */; };
 		657621301EA3464B00F53296 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6576212F1EA3464B00F53296 /* AppDelegate.m */; };
 		657621331EA3464B00F53296 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 657621321EA3464B00F53296 /* ViewController.m */; };
 		657621361EA3464C00F53296 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 657621341EA3464C00F53296 /* Main.storyboard */; };
 		657621381EA3464C00F53296 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 657621371EA3464C00F53296 /* Assets.xcassets */; };
 		6576213B1EA3464C00F53296 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 657621391EA3464C00F53296 /* LaunchScreen.storyboard */; };
+		657621471EA349BE00F53296 /* BYBWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 657621461EA349BE00F53296 /* BYBWebView.m */; };
+		65BF6A951EB785C40045F760 /* UIWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65BF6A941EB785C40045F760 /* UIWebViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		65526E051EB646120014900D /* BYBUIWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BYBUIWebView.h; sourceTree = "<group>"; };
+		65526E061EB646120014900D /* BYBUIWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BYBUIWebView.m; sourceTree = "<group>"; };
+		65526E081EB722B10014900D /* WKWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKWebViewController.h; sourceTree = "<group>"; };
+		65526E091EB722B10014900D /* WKWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKWebViewController.m; sourceTree = "<group>"; };
 		657621281EA3464B00F53296 /* WKWebView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WKWebView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6576212C1EA3464B00F53296 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6576212E1EA3464B00F53296 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +34,10 @@
 		657621371EA3464C00F53296 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6576213A1EA3464C00F53296 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6576213C1EA3464C00F53296 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		657621451EA349BE00F53296 /* BYBWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BYBWebView.h; sourceTree = "<group>"; };
+		657621461EA349BE00F53296 /* BYBWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BYBWebView.m; sourceTree = "<group>"; };
+		65BF6A931EB785C40045F760 /* UIWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIWebViewController.h; sourceTree = "<group>"; };
+		65BF6A941EB785C40045F760 /* UIWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIWebViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +70,18 @@
 		6576212A1EA3464B00F53296 /* WKWebView */ = {
 			isa = PBXGroup;
 			children = (
+				65526E051EB646120014900D /* BYBUIWebView.h */,
+				65526E061EB646120014900D /* BYBUIWebView.m */,
+				657621451EA349BE00F53296 /* BYBWebView.h */,
+				657621461EA349BE00F53296 /* BYBWebView.m */,
 				6576212E1EA3464B00F53296 /* AppDelegate.h */,
 				6576212F1EA3464B00F53296 /* AppDelegate.m */,
 				657621311EA3464B00F53296 /* ViewController.h */,
 				657621321EA3464B00F53296 /* ViewController.m */,
+				65526E081EB722B10014900D /* WKWebViewController.h */,
+				65526E091EB722B10014900D /* WKWebViewController.m */,
+				65BF6A931EB785C40045F760 /* UIWebViewController.h */,
+				65BF6A941EB785C40045F760 /* UIWebViewController.m */,
 				657621341EA3464C00F53296 /* Main.storyboard */,
 				657621371EA3464C00F53296 /* Assets.xcassets */,
 				657621391EA3464C00F53296 /* LaunchScreen.storyboard */,
@@ -152,8 +172,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				657621331EA3464B00F53296 /* ViewController.m in Sources */,
+				65526E071EB646130014900D /* BYBUIWebView.m in Sources */,
 				657621301EA3464B00F53296 /* AppDelegate.m in Sources */,
+				65BF6A951EB785C40045F760 /* UIWebViewController.m in Sources */,
+				65526E0A1EB722B10014900D /* WKWebViewController.m in Sources */,
 				6576212D1EA3464B00F53296 /* main.m in Sources */,
+				657621471EA349BE00F53296 /* BYBWebView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,6 +300,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 5TZMCQZAF5;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = WKWebView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.byb.WKWebView;
@@ -288,6 +313,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 5TZMCQZAF5;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = WKWebView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.byb.WKWebView;
@@ -314,6 +340,7 @@
 				657621411EA3464C00F53296 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
