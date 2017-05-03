@@ -9,6 +9,8 @@ Custom UIWebView
     BYBUIWebView *bybUIwebView = [[BYBUIWebView alloc] initWithDelegate:self];
     self.bybUIwebView = bybUIwebView;
     [bybUIwebView startTestWithUrl:@"http://www.qq.com"];
+    
+    ![](https://github.com/baiyongbing/Custom_WKWebView-UIWebView/blob/master/WKWebView/kSBhB0YIP9.gif)
 
 
 
