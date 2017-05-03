@@ -10,7 +10,7 @@ Custom UIWebView
     self.bybUIwebView = bybUIwebView;
     [bybUIwebView startTestWithUrl:@"http://www.qq.com"];
     
-    ![](https://github.com/baiyongbing/Custom_WKWebView-UIWebView/blob/master/WKWebView/kSBhB0YIP9.gif)
+    ![img](https://github.com/baiyongbing/Custom_WKWebView-UIWebView/blob/master/WKWebView/kSBhB0YIP9.gif)
 
 
 
